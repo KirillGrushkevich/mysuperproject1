@@ -1,0 +1,93 @@
+.menu_wh {
+	position: absolute;
+	width: 350px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #FFFFFF;
+}
+
+.menu_wh-nazad {
+	background-color: #fff;
+    text-align: right;
+}
+
+.menu_wh-nazad .nazad__item {
+	display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    background: url(../images/nazad.svg) 50% 50% no-repeat;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.menu_wh-sitbar {
+	padding: 10px 20px 20px 20px;
+}
+
+.menu_wh-menu__list {
+	list-style: none;
+	margin: 0 0 45px;
+}
+
+.menu_wh-menu__list ul {
+	margin: 0;
+    padding: 0;
+}
+
+.menu_wh-menu__list li {
+	line-height: 30px;
+}
+
+.menu_wh-menu__list li a {
+	padding: 10px 0px 15px;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+.menu_wh-menu__item a,
+.menu_wh-contacts__phone a,
+.menu_wh-contacts__email a {
+	text-decoration: none;
+}
+
+.menu_wh-contacts {
+	padding: 30px 20px 20px 20px;
+	display: block;
+}
+
+.menu_wh-contacts .menu_wh-contacts__phone {
+	margin-bottom: 20px;
+	font-weight: 300;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: 0.05em;
+    margin-right: 56px;
+
+}
+
+.menu_wh-contacts__phone a {
+	text-decoration: none;
+    color: #000;
+    font-family: 'Jost', sans-serif;
+}
+
+.menu_wh-contacts .menu_wh-contacts__email {
+	font-weight: 300;
+    font-size: 14px;
+    line-height: 1.42;
+    display: flex;
+    align-items: center;
+}
+
+.menu_wh-contacts__email a {
+	text-decoration: none;
+    color: #000;
+    font-family: 'Jost', sans-serif;
+}

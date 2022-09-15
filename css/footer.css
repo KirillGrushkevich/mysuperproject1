@@ -1,0 +1,138 @@
+.footer {
+	padding-top: 10px;
+	height: 250px;
+    min-width: 320px;
+    z-index: 40;
+    background: #FFF;
+    position: relative;
+}
+
+.footer .footer_box {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    color: #999;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid__item1 {
+	width: 100%;
+	display: flex;
+	display: block;
+	flex-wrap: nowrap;
+}
+
+.footer-menu {
+}
+
+.footer-menu__list {
+	width: auto;
+	display: flex;
+}
+
+.footer-menu__list ul {
+}
+
+.footer-menu__list li {
+	flex-wrap: nowrap;
+	margin: 10px 30px;
+}
+
+.footer-menu__list li a {
+	font-family: 'Jost', sans-serif;
+	font-size: 20px;
+	color: #000;
+	align-items: center;
+}
+
+.footer_contacts {
+	position: absolute;
+	right: 60px;
+	top: 10px;
+	display: flex;
+}
+
+.footer-contacts_phone {
+	font-weight: 300;
+    font-size: 16px;
+    line-height: 1.11;
+    letter-spacing: 0.05em;
+    margin-right: 56px;
+}
+
+.footer-contacts_phone a {
+	text-decoration: none;
+    color: #000;
+    font-family: 'Jost', sans-serif;
+}
+
+.footer-contacts_email {
+	font-weight: 300;
+    font-size: 16px;
+    line-height: 1.42;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contacts_email a {
+	color: #000;
+}
+
+.footer-menu__list li,
+.footer-menu__item a,
+.footer-contacts_phone a,
+.footer-contacts_email a {
+	text-decoration: none;
+	list-style: none;
+}
+
+.grid__item2 {
+	border-top: 1px solid black;
+	padding-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.no-more-alchogol {
+	font-family: 'CormorantGaramond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.45;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #DDDDDD;
+}
+
+.grid__item3{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.grid__item3_1 {
+	position: absolute;
+	left: 20px;
+	font-family: 'CormorantGaramond';
+	font-size: 20px;
+}
+
+.grid__item3_2 {
+	position: absolute;
+	right: 20px;
+}
+
+.grid__item3_2 a {
+	font-family: 'CormorantGaramond';
+	text-decoration: none;
+	color: #999;
+	font-size: 20px;
+}
+.grid__item3_2 p {
+	font-family: 'CormorantGaramond';
+	color: #999;
+	font-size: 20px;
+}
